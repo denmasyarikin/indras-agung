@@ -30,6 +30,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
 
+  <meta property="fb:app_id" content="203682120338289" />
   <meta property="og:title"              content="Pernikahan Indras & Agung" />
   <meta property="og:description"        content="Undangan pernikahan digital Indras dan Agung" />
   <meta property="og:image"              content="https://denmasyarikin.github.io/indras-agung/images/slider1.jpg" />
@@ -71,6 +72,7 @@
             <li><a class="nav-link" href="#about">Kami</a></li>
             <li><a class="nav-link" href="#wedding">Acara</a></li>
             <li><a class="nav-link" href="#location">Lokasi</a></li>
+            <li><a class="nav-link" href="#comment">Komentar</a></li>
           </ul>
         </div>
       </div>
@@ -188,6 +190,16 @@
   </div>
   <!-- End Location -->
 
+  <!-- Start Comment -->
+  <div id="comment" class="comment-box" style="padding:10px">
+    <div class="title-box">
+      <h2>Komentar</h2>
+      <p>Terimakasih atas komentar anda</p>
+    </div>
+    <div class="fb-comments" data-href="https://denmasyarikin.github.io/indras-agung/" data-width="100%" data-numposts="10"></div>
+  </div>
+  <!-- End Location -->
+
   <!-- Start Footer -->
   <footer class="footer-box">
     <div class="container">
@@ -199,7 +211,15 @@
     </div>
   </footer>
   <!-- End Footer -->
-
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=203682120338289&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
   <!-- ALL JS FILES -->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
